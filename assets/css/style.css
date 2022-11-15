@@ -162,6 +162,8 @@ header {
 
 /* FOOTER BASEADO EM ARTIGO EM BLOG */
 
+footer {position: fixed bottom;}
+
 .footer address {
   font-style: normal;
   color: #fff;
@@ -248,3 +250,5 @@ header {
     flex: 2 0px;
   }
 }
+
+

@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/servies.css" />
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
   <title>FrontEnders - Serviço</title>
 </head>
@@ -53,26 +53,17 @@
   <!--Conteúdo do site ficará em MAIN-->
   <main>
   <!--Colocar 3 containers com informações de cada plano e estilizar DEIXAR RESPONSIVO-->
-    <div class="boxServices">
-      <div class="boxItems">
-        <h2>Plano báscio - Gratuito</h2>
-      <p>Tenha acesso limitado as ferramentas por um período limitado!</p>
-      <p>Valor: <span>R$ 0,00</span></p>
-      <p>Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nisi, blanditiis autem itaque ex laboriosam sit repellendus facere distinctio amet, ipsum omnis odit qui a dolor quis, pariatur rem perspiciatis!</p>
-      </div>
-      <div class="boxItems">
-        <h2>Plano báscio - Gratuito</h2>
-      <p>Tenha acesso limitado as ferramentas por um período limitado!</p>
-      <p>Valor: <span>R$ 0,00</span></p>
-      <p>Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nisi, blanditiis autem itaque ex laboriosam sit repellendus facere distinctio amet, ipsum omnis odit qui a dolor quis, pariatur rem perspiciatis!</p>
-      </div>
-      <div class="boxItems">
-        <h2>Plano báscio - Gratuito</h2>
-      <p>Tenha acesso limitado as ferramentas por um período limitado!</p>
-      <p>Valor: <span>R$ 0,00</span></p>
-      <p>Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nisi, blanditiis autem itaque ex laboriosam sit repellendus facere distinctio amet, ipsum omnis odit qui a dolor quis, pariatur rem perspiciatis!</p>
-      </div>
-    </div>
+  <div class="boxPlanos">
+		<h1>Planos disponíveis</h1>
+		<form class="form cf">
+			<section class="plan cf">
+				<input type="radio" name="radio1" id="free" value="free"><label class="free-label caixa col" for="free">Free</label>
+				<input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label caixa col" for="basic">Basic</label>
+				<input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label caixa col" for="premium">Premium</label>
+			</section>	
+			<input class="submit" type="submit" value="Submit">		
+		</form>
+	</div>
   </main>
   <!--Conteúdo do site ficará em MAIN-->
 

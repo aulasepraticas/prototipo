@@ -223,13 +223,8 @@ header {
   color: #999;
 }
 
-.legal__links {
-  display: flex;
-  align-items: center;
-}
-
 @media screen and (min-width: 24.375em) {
-  .legal .legal__links {
+  .legal {
     margin-left: auto;
   }
 }
@@ -260,7 +255,7 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   margin: 20px;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 .boxItems {
@@ -285,3 +280,96 @@ header {
 
   }
 }
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #2fcc71;
+  max-width: 40%;
+  margin:
+    20px auto;
+}
+
+form {
+  margin: 100px;
+}
+
+.boxPlanos {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.caixa {
+  width: 32.26%;
+  max-width: 32.26%;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.form input {
+  display: none;
+}
+
+.form label {
+  position: relative;
+  color: #fff;
+  background-color: #aaa;
+  font-size: 26px;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  display: block;
+  cursor: pointer;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form input:checked+label,
+.form input:checked+label,
+.form input:checked+label {
+  border: 3px solid #333;
+  background-color: #0187a7;
+}
+
+.form input:checked+label:after,
+form input:checked+label:after,
+.form input:checked+label:after {
+  content: "\2713";
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  border: 2px solid #333;
+  background-color: #2fcc71;
+  z-index: 999;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
