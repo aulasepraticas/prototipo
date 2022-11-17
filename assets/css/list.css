@@ -248,3 +248,17 @@ header {
     flex: 2 0px;
   }
 }
+
+form {padding: 40px;
+  margin: 100px;
+  text-align: center;
+  border: solid;
+  background: #0187a7;
+  color: #fff;
+}
+
+input,
+label {
+  margin: 5px;
+  padding: 5px;
+}

@@ -119,6 +119,8 @@ header {
   .open {
     display: block;
   }
+  main {flex-direction: column;}
+
 }
 
 .footer {
@@ -247,4 +249,136 @@ header {
   .footer__nav {
     flex: 2 0px;
   }
+
+}
+
+main {display: flex;
+flex-wrap: wrap; margin: 50px;}
+
+.card {
+  z-index: 1;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #0187a7;
+}
+
+.card.active {
+  height: 490px;
+}
+
+.banner {
+  z-index: 2;
+  position: relative;
+  margin-top: -154px;
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  border-bottom: solid 1px lightgrey;
+}
+
+.banner.active {
+  height: 0;
+
+}
+
+.photo {
+  z-index: 3;
+  position: relative;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  margin: 0 auto;
+  background-image: url("https://filmshotfreezer.files.wordpress.com/2011/07/untitled-1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  top: 75px;
+
+}
+
+.photo.active {
+  top: -80px;
+}
+
+.card ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 87px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.card ul.active {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card i {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 150px;
+  width: 300px;
+  ;
+  text-align: left;
+  color: #C7D0E1;
+}
+
+button.contact {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -15px;
+  width: 100%;
+  height: 35px;
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  color: white;
+  background-color: #C7D0E1;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+
+button.contact:hover {
+  cursor: pointer;
+  background-color: #979da8;
+}
+
+button.contact:focus {
+  outline: 0;
+}
+
+.social-media-banner {
+  width: 300px;
+  height: 50px;
+  margin-top: 25px;
+  text-align: center;
+  position: absolute;
+
+}
+
+.social-media-banner.active {
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.social-media-banner a i {
+  display: inline;
+
+  width: auto;
+  margin-right: 15px;
+  margin-left: 10px;
+
+}
+
+.social-media-banner a i:hover {
+  color: #979da8;
 }
