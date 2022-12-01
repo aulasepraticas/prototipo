@@ -157,10 +157,14 @@ header {
   font-size: 15px;
 }
 
-/* MENU BASEADO EM VIDEO AULA */
+/*
+MENU BASEADO EM VÍDEO AULA - DAQUI PARA CIMA É CONFIGURAÇÃO DO MENU DE NAVEGAÇÃO
+*/
 
 
-/* FOOTER BASEADO EM ARTIGO EM BLOG */
+/*
+FOOTER BASEADO EM ARTIGO EM BLOG - DAQUI PARA BAIXO É CONFIGURAÇÃO DO FOOTER
+*/
 
 footer {position: fixed bottom;}
 
@@ -250,7 +254,7 @@ footer {position: fixed bottom;}
     flex: 2 0px;
   }
 }
-
-/**/
-
+/*
+FOOTER BASEADO EM ARTIGO EM BLOG - DAQUI PARA CIMA É CONFIGURAÇÃO DO FOOTER
+*/
 
