@@ -288,4 +288,14 @@ FOOTER BASEADO EM ARTIGO EM BLOG - DAQUI PARA CIMA É CONFIGURAÇÃO DO FOOTER
   text-align: center;
   padding: 15rem;
 }
+.content4 {
+  position: relative;
+  background: #fff url(/assets/img/homebg3.png) 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+  text-align: center;
+  padding: 15rem;
+}
+
 
