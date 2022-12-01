@@ -166,7 +166,9 @@ MENU BASEADO EM VÍDEO AULA - DAQUI PARA CIMA É CONFIGURAÇÃO DO MENU DE NAVEG
 FOOTER BASEADO EM ARTIGO EM BLOG - DAQUI PARA BAIXO É CONFIGURAÇÃO DO FOOTER
 */
 
-footer {position: fixed bottom;}
+footer {
+  position: fixed bottom;
+}
 
 .footer address {
   font-style: normal;
@@ -254,7 +256,36 @@ footer {position: fixed bottom;}
     flex: 2 0px;
   }
 }
+
 /*
 FOOTER BASEADO EM ARTIGO EM BLOG - DAQUI PARA CIMA É CONFIGURAÇÃO DO FOOTER
 */
+
+.content {
+  position: relative;
+  background: #fff url(/assets/img/homebg.svg) 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+  text-align: center;
+  padding: 15rem;
+}
+.content2 {
+  position: relative;
+  background: #fff 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+.content3 {
+  position: relative;
+  background: #fff url(/assets/img/homebg2.gif) 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+  text-align: center;
+  padding: 15rem;
+}
 
